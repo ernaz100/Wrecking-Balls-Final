@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     [HideInInspector]
     public bool isYellow = false;
     public AudioSource pop;
+    public AudioSource roll;
+
     public Rigidbody playerRb;
     private GameManager gameManager;
     private SpawnManager spawnManager;
@@ -40,12 +42,14 @@ public class PlayerController : MonoBehaviour
     {
         MoveSideways();
         velocity = playerRb.GetPointVelocity(transform.position);
+        roll.pitch = playerRb.velocity.magnitude / forwardSpeed;
         sockPowerCoolDown -= Time.deltaTime;
 
         //Check Player position relative to Checkpoints to offset the slow Collider;
         if(transform.position.z >= spawnManager.checkpoint_Position-240 - 2.5f && transform.position.z <= spawnManager.checkpoint_Position-240 + 2.5f)
         {
             onCheckpoint = true;
+            roll.Stop();
         }
         else
         {
@@ -71,10 +75,10 @@ public class PlayerController : MonoBehaviour
             playerRb.AddForce(Vector3.forward * forwardSpeed * Time.deltaTime, ForceMode.Impulse);
             transform.localScale -= new Vector3(1,1,1) * Time.deltaTime / SHRINKING_DELAY;
             transform.position = new Vector3(transform.position.x,((transform.localScale.y / 2)) , transform.position.z);
-            
-            //if shrunk too hard end game
 
-            if(transform.localScale.x < 0 )
+            //if shrunk too small end game
+
+            if (transform.localScale.x < 0 )
             {
                 playerRb.velocity = Vector3.zero;
                 playerRb.angularVelocity = Vector3.zero;
@@ -121,6 +125,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Checkpoint"))
         {
+            roll.Play();
             StopCoroutine("ChangeColor");
             spawnManager.SpawnCrateLine();
             spawnManager.SpawnBoostingPadsAndRandomCrates();
