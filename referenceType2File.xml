@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.AssetCollector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ClassReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>CollectionData</string>
+      <string>TypeDate</string>
+      <string>IReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f5b4d8977842d4495a74efdf63299158</guid>
+    <fileName>Assets/Course Library/_Source_Files/Scripts/DestroyAfterDelay.cs</fileName>
+    <timeStamp>2019-04-09T16:21:54+01:00</timeStamp>
+    <typeFullName>
+      <string>DestroyAfterDelay</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>de79dc2ce61ef5a4e948f50fbf10dbed</guid>
+    <fileName>Assets/Scripts/BackButton.cs</fileName>
+    <timeStamp>2021-12-12T23:52:39.4916526+00:00</timeStamp>
+    <typeFullName>
+      <string>BackButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8fa23c865c02fa04f8aaaac1078ad8a4</guid>
+    <fileName>Assets/Scripts/BuyButton.cs</fileName>
+    <timeStamp>2021-12-12T23:50:52.5760843+00:00</timeStamp>
+    <typeFullName>
+      <string>BuyButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>15d402f2adaad2044b513175dc093b5f</guid>
+    <fileName>Assets/Scripts/Crate.cs</fileName>
+    <timeStamp>2021-11-24T20:47:42.1904478+00:00</timeStamp>
+    <typeFullName>
+      <string>Crate</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>863498356c5a6ca4a83ae41c3bbaab98</guid>
+    <fileName>Assets/Scripts/DestroyOutOfVision.cs</fileName>
+    <timeStamp>2021-11-11T21:07:07.567241+00:00</timeStamp>
+    <typeFullName>
+      <string>DestroyOutOfVision</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>099576a9dbaa1c742b021636bfd0e2c5</guid>
+    <fileName>Assets/Scripts/FollowPlayer.cs</fileName>
+    <timeStamp>2021-11-02T22:22:23.7020028+00:00</timeStamp>
+    <typeFullName>
+      <string>FollowPlayer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9b031b8a34f9f2b40815553625b51c5c</guid>
+    <fileName>Assets/Scripts/GameManager.cs</fileName>
+    <timeStamp>2021-12-13T00:32:28.9021976+00:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d9a3c6166a37ee74e8ed2d14b70138c9</guid>
+    <fileName>Assets/Scripts/OpenLink.cs</fileName>
+    <timeStamp>2021-11-26T09:57:53.9864834+00:00</timeStamp>
+    <typeFullName>
+      <string>OpenLink</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e5107bc45c2c49d49b47e36b5bc773e3</guid>
+    <fileName>Assets/Scripts/PlayerController.cs</fileName>
+    <timeStamp>2021-12-13T01:09:07.49696+00:00</timeStamp>
+    <typeFullName>
+      <string>PlayerController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4a807c05f8e7ff1418948eb746480d31</guid>
+    <fileName>Assets/Scripts/RestartGameButton.cs</fileName>
+    <timeStamp>2021-11-24T16:31:21.618416+00:00</timeStamp>
+    <typeFullName>
+      <string>RestartGameButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>87d74f0de6020e94a8b6293e3cab0ca4</guid>
+    <fileName>Assets/Scripts/ShopButton.cs</fileName>
+    <timeStamp>2021-12-12T23:22:01.2004391+00:00</timeStamp>
+    <typeFullName>
+      <string>ShopButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>85b1b9cd48b1a2c43b93b37300540946</guid>
+    <fileName>Assets/Scripts/SpawnManager.cs</fileName>
+    <timeStamp>2021-12-12T23:10:02.6527718+00:00</timeStamp>
+    <typeFullName>
+      <string>SpawnManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d933b4eef47d5a1469012bc8575357a8</guid>
+    <fileName>Assets/Scripts/StartGameButton.cs</fileName>
+    <timeStamp>2021-11-24T12:26:29.2049829+00:00</timeStamp>
+    <typeFullName>
+      <string>StartGameButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>
